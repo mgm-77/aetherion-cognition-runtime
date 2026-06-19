@@ -1,0 +1,21 @@
+numpy>=1.20.0
+typing-extensions>=3.9.0
+
+# Optional: Machine Learning Frameworks
+torch>=1.9.0  # PyTorch support
+tensorflow>=2.5.0  # TensorFlow support
+
+# Optional: Semantic Search
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0  # Use faiss-gpu for GPU acceleration
+
+# Optional: Backend Support
+redis>=4.0.0  # Redis backend
+pymemcache>=3.5.0  # Memcached support
+
+# Optional: Serialization
+msgpack>=1.0.0  # MessagePack support
+
+# Development
+pytest>=6.0.0
+pytest-asyncio>=0.18.0
